@@ -48,6 +48,8 @@
 		D3D1613B29818B95003A3457 /* UpgradeAccountIdentityCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612E29818B95003A3457 /* UpgradeAccountIdentityCameraView.swift */; };
 		D3D1613C29818B95003A3457 /* UpgradeAccountIdentityResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612F29818B95003A3457 /* UpgradeAccountIdentityResultView.swift */; };
 		D3D1613D29818B95003A3457 /* UpgradeAccountIdentityGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1613029818B95003A3457 /* UpgradeAccountIdentityGuideView.swift */; };
+		D3D161462981DACB003A3457 /* QrisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D161442981DACB003A3457 /* QrisView.swift */; };
+		D3D161472981DACB003A3457 /* QrisResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D161452981DACB003A3457 /* QrisResultView.swift */; };
 		D3DF158329689846004424B1 /* SampleAlamoFireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF158229689846004424B1 /* SampleAlamoFireApp.swift */; };
 		D3DF158729689847004424B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DF158629689847004424B1 /* Assets.xcassets */; };
 		D3DF158A29689847004424B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DF158929689847004424B1 /* Preview Assets.xcassets */; };
@@ -98,6 +100,8 @@
 		D3D1612E29818B95003A3457 /* UpgradeAccountIdentityCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeAccountIdentityCameraView.swift; sourceTree = "<group>"; };
 		D3D1612F29818B95003A3457 /* UpgradeAccountIdentityResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeAccountIdentityResultView.swift; sourceTree = "<group>"; };
 		D3D1613029818B95003A3457 /* UpgradeAccountIdentityGuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeAccountIdentityGuideView.swift; sourceTree = "<group>"; };
+		D3D161442981DACB003A3457 /* QrisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrisView.swift; sourceTree = "<group>"; };
+		D3D161452981DACB003A3457 /* QrisResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrisResultView.swift; sourceTree = "<group>"; };
 		D3DF157F29689846004424B1 /* SampleAlamoFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAlamoFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DF158229689846004424B1 /* SampleAlamoFireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAlamoFireApp.swift; sourceTree = "<group>"; };
 		D3DF158629689847004424B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -178,6 +182,7 @@
 		D37418C72968AD3B0088091D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D3D161432981DAAA003A3457 /* Qris */,
 				D3D1612029818B95003A3457 /* Camera */,
 				D3D1612529818B95003A3457 /* UpgradeAccount */,
 				D38644072969CF8A00F83930 /* HomeView.swift */,
@@ -270,6 +275,15 @@
 				D3D1613029818B95003A3457 /* UpgradeAccountIdentityGuideView.swift */,
 			);
 			path = UpgradeAccountIdentity;
+			sourceTree = "<group>";
+		};
+		D3D161432981DAAA003A3457 /* Qris */ = {
+			isa = PBXGroup;
+			children = (
+				D3D161452981DACB003A3457 /* QrisResultView.swift */,
+				D3D161442981DACB003A3457 /* QrisView.swift */,
+			);
+			path = Qris;
 			sourceTree = "<group>";
 		};
 		D3DF157629689846004424B1 = {
@@ -437,6 +451,7 @@
 				D3D1613929818B95003A3457 /* UpgradeAccountSuccessView.swift in Sources */,
 				D3D1613129818B95003A3457 /* OpenGalerryView.swift in Sources */,
 				D35A019A296FB99500074262 /* TokenResponse.swift in Sources */,
+				D3D161472981DACB003A3457 /* QrisResultView.swift in Sources */,
 				D3D1613329818B95003A3457 /* CameraView.swift in Sources */,
 				D35A019E296FBB9100074262 /* DateHelper.swift in Sources */,
 				D38644182969DFB700F83930 /* LoginViewModel.swift in Sources */,
@@ -457,6 +472,7 @@
 				D35A01A2296FBC4500074262 /* SampleViewModel.swift in Sources */,
 				D386441A2969E02100F83930 /* LoginView.swift in Sources */,
 				D38643FD2969BE1300F83930 /* ApiService.swift in Sources */,
+				D3D161462981DACB003A3457 /* QrisView.swift in Sources */,
 				D386440E2969D35B00F83930 /* UserListViewModel.swift in Sources */,
 				D386440A2969D1C900F83930 /* UserListResponse.swift in Sources */,
 				D35A01A0296FBBCA00074262 /* SampleView.swift in Sources */,
