@@ -35,6 +35,19 @@
 		D38644162969DF0900F83930 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38644152969DF0900F83930 /* LoginResponse.swift */; };
 		D38644182969DFB700F83930 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38644172969DFB700F83930 /* LoginViewModel.swift */; };
 		D386441A2969E02100F83930 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38644192969E02100F83930 /* LoginView.swift */; };
+		D3D1613129818B95003A3457 /* OpenGalerryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612129818B95003A3457 /* OpenGalerryView.swift */; };
+		D3D1613229818B95003A3457 /* CustomCameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612229818B95003A3457 /* CustomCameraPreview.swift */; };
+		D3D1613329818B95003A3457 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612329818B95003A3457 /* CameraView.swift */; };
+		D3D1613429818B95003A3457 /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612429818B95003A3457 /* CustomCameraView.swift */; };
+		D3D1613529818B95003A3457 /* UpgradeAccountSelfieResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612729818B95003A3457 /* UpgradeAccountSelfieResultView.swift */; };
+		D3D1613629818B95003A3457 /* UpgradeAccountSelfieGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612829818B95003A3457 /* UpgradeAccountSelfieGuideView.swift */; };
+		D3D1613729818B95003A3457 /* UpgradeAccountSelfieCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612929818B95003A3457 /* UpgradeAccountSelfieCameraView.swift */; };
+		D3D1613829818B95003A3457 /* UpgradeAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612A29818B95003A3457 /* UpgradeAccountView.swift */; };
+		D3D1613929818B95003A3457 /* UpgradeAccountSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612B29818B95003A3457 /* UpgradeAccountSuccessView.swift */; };
+		D3D1613A29818B95003A3457 /* UpgradeAccountPersonalDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612C29818B95003A3457 /* UpgradeAccountPersonalDataView.swift */; };
+		D3D1613B29818B95003A3457 /* UpgradeAccountIdentityCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612E29818B95003A3457 /* UpgradeAccountIdentityCameraView.swift */; };
+		D3D1613C29818B95003A3457 /* UpgradeAccountIdentityResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612F29818B95003A3457 /* UpgradeAccountIdentityResultView.swift */; };
+		D3D1613D29818B95003A3457 /* UpgradeAccountIdentityGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1613029818B95003A3457 /* UpgradeAccountIdentityGuideView.swift */; };
 		D3DF158329689846004424B1 /* SampleAlamoFireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF158229689846004424B1 /* SampleAlamoFireApp.swift */; };
 		D3DF158729689847004424B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DF158629689847004424B1 /* Assets.xcassets */; };
 		D3DF158A29689847004424B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DF158929689847004424B1 /* Preview Assets.xcassets */; };
@@ -72,6 +85,19 @@
 		D38644152969DF0900F83930 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		D38644172969DFB700F83930 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		D38644192969E02100F83930 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D3D1612129818B95003A3457 /* OpenGalerryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGalerryView.swift; sourceTree = "<group>"; };
+		D3D1612229818B95003A3457 /* CustomCameraPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCameraPreview.swift; sourceTree = "<group>"; };
+		D3D1612329818B95003A3457 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		D3D1612429818B95003A3457 /* CustomCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
+		D3D1612729818B95003A3457 /* UpgradeAccountSelfieResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeAccountSelfieResultView.swift; sourceTree = "<group>"; };
+		D3D1612829818B95003A3457 /* UpgradeAccountSelfieGuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeAccountSelfieGuideView.swift; sourceTree = "<group>"; };
+		D3D1612929818B95003A3457 /* UpgradeAccountSelfieCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeAccountSelfieCameraView.swift; sourceTree = "<group>"; };
+		D3D1612A29818B95003A3457 /* UpgradeAccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeAccountView.swift; sourceTree = "<group>"; };
+		D3D1612B29818B95003A3457 /* UpgradeAccountSuccessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeAccountSuccessView.swift; sourceTree = "<group>"; };
+		D3D1612C29818B95003A3457 /* UpgradeAccountPersonalDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeAccountPersonalDataView.swift; sourceTree = "<group>"; };
+		D3D1612E29818B95003A3457 /* UpgradeAccountIdentityCameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeAccountIdentityCameraView.swift; sourceTree = "<group>"; };
+		D3D1612F29818B95003A3457 /* UpgradeAccountIdentityResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeAccountIdentityResultView.swift; sourceTree = "<group>"; };
+		D3D1613029818B95003A3457 /* UpgradeAccountIdentityGuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeAccountIdentityGuideView.swift; sourceTree = "<group>"; };
 		D3DF157F29689846004424B1 /* SampleAlamoFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAlamoFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DF158229689846004424B1 /* SampleAlamoFireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAlamoFireApp.swift; sourceTree = "<group>"; };
 		D3DF158629689847004424B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -152,6 +178,8 @@
 		D37418C72968AD3B0088091D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D3D1612029818B95003A3457 /* Camera */,
+				D3D1612529818B95003A3457 /* UpgradeAccount */,
 				D38644072969CF8A00F83930 /* HomeView.swift */,
 				D37ABF60296947A9001B414E /* UserView.swift */,
 				D386440B2969D22200F83930 /* UserListView.swift */,
@@ -199,6 +227,49 @@
 				D38644152969DF0900F83930 /* LoginResponse.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		D3D1612029818B95003A3457 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				D3D1612129818B95003A3457 /* OpenGalerryView.swift */,
+				D3D1612229818B95003A3457 /* CustomCameraPreview.swift */,
+				D3D1612329818B95003A3457 /* CameraView.swift */,
+				D3D1612429818B95003A3457 /* CustomCameraView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		D3D1612529818B95003A3457 /* UpgradeAccount */ = {
+			isa = PBXGroup;
+			children = (
+				D3D1612C29818B95003A3457 /* UpgradeAccountPersonalDataView.swift */,
+				D3D1612B29818B95003A3457 /* UpgradeAccountSuccessView.swift */,
+				D3D1612A29818B95003A3457 /* UpgradeAccountView.swift */,
+				D3D1612D29818B95003A3457 /* UpgradeAccountIdentity */,
+				D3D1612629818B95003A3457 /* UpgradeAccountSelfie */,
+			);
+			path = UpgradeAccount;
+			sourceTree = "<group>";
+		};
+		D3D1612629818B95003A3457 /* UpgradeAccountSelfie */ = {
+			isa = PBXGroup;
+			children = (
+				D3D1612729818B95003A3457 /* UpgradeAccountSelfieResultView.swift */,
+				D3D1612829818B95003A3457 /* UpgradeAccountSelfieGuideView.swift */,
+				D3D1612929818B95003A3457 /* UpgradeAccountSelfieCameraView.swift */,
+			);
+			path = UpgradeAccountSelfie;
+			sourceTree = "<group>";
+		};
+		D3D1612D29818B95003A3457 /* UpgradeAccountIdentity */ = {
+			isa = PBXGroup;
+			children = (
+				D3D1612E29818B95003A3457 /* UpgradeAccountIdentityCameraView.swift */,
+				D3D1612F29818B95003A3457 /* UpgradeAccountIdentityResultView.swift */,
+				D3D1613029818B95003A3457 /* UpgradeAccountIdentityGuideView.swift */,
+			);
+			path = UpgradeAccountIdentity;
 			sourceTree = "<group>";
 		};
 		D3DF157629689846004424B1 = {
@@ -357,21 +428,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D1613629818B95003A3457 /* UpgradeAccountSelfieGuideView.swift in Sources */,
 				D35A01A6296FBF8400074262 /* TransactionHelper.swift in Sources */,
 				D38644022969C3F300F83930 /* AppDelegate.swift in Sources */,
 				D38644002969C29500F83930 /* EncodeableExtentions.swift in Sources */,
 				D3DF158329689846004424B1 /* SampleAlamoFireApp.swift in Sources */,
 				D38644082969CF8A00F83930 /* HomeView.swift in Sources */,
+				D3D1613929818B95003A3457 /* UpgradeAccountSuccessView.swift in Sources */,
+				D3D1613129818B95003A3457 /* OpenGalerryView.swift in Sources */,
 				D35A019A296FB99500074262 /* TokenResponse.swift in Sources */,
+				D3D1613329818B95003A3457 /* CameraView.swift in Sources */,
 				D35A019E296FBB9100074262 /* DateHelper.swift in Sources */,
 				D38644182969DFB700F83930 /* LoginViewModel.swift in Sources */,
 				D37418C52968ACD30088091D /* UserResponse.swift in Sources */,
 				D35A01A4296FBCC700074262 /* SampleApiService.swift in Sources */,
+				D3D1613B29818B95003A3457 /* UpgradeAccountIdentityCameraView.swift in Sources */,
 				77D043032971A2D100F5333C /* PulsaDataViewModel.swift in Sources */,
 				D38644142969DECD00F83930 /* LoginRequest.swift in Sources */,
+				D3D1613829818B95003A3457 /* UpgradeAccountView.swift in Sources */,
+				D3D1613729818B95003A3457 /* UpgradeAccountSelfieCameraView.swift in Sources */,
+				D3D1613529818B95003A3457 /* UpgradeAccountSelfieResultView.swift in Sources */,
+				D3D1613D29818B95003A3457 /* UpgradeAccountIdentityGuideView.swift in Sources */,
 				D37418C22968A4000088091D /* SampleUrl.swift in Sources */,
 				D38643FB2969BE0A00F83930 /* ApiManager.swift in Sources */,
+				D3D1613429818B95003A3457 /* CustomCameraView.swift in Sources */,
 				D386440C2969D22200F83930 /* UserListView.swift in Sources */,
+				D3D1613A29818B95003A3457 /* UpgradeAccountPersonalDataView.swift in Sources */,
 				D35A01A2296FBC4500074262 /* SampleViewModel.swift in Sources */,
 				D386441A2969E02100F83930 /* LoginView.swift in Sources */,
 				D38643FD2969BE1300F83930 /* ApiService.swift in Sources */,
@@ -380,6 +462,8 @@
 				D35A01A0296FBBCA00074262 /* SampleView.swift in Sources */,
 				D35A019C296FBB2E00074262 /* SignatureHelper.swift in Sources */,
 				77D0430A297545A500F5333C /* AccountViewModel.swift in Sources */,
+				D3D1613229818B95003A3457 /* CustomCameraPreview.swift in Sources */,
+				D3D1613C29818B95003A3457 /* UpgradeAccountIdentityResultView.swift in Sources */,
 				77D0430129707C1400F5333C /* PulsaDataView.swift in Sources */,
 				D38644062969C59400F83930 /* UserViewModel.swift in Sources */,
 				D37ABF61296947A9001B414E /* UserView.swift in Sources */,

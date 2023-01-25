@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4D3783069B98D7A1236F03A19BF0466E"
-               BuildableName = "Pods_SampleAlamoFire.framework"
-               BlueprintName = "Pods-SampleAlamoFire"
+               BuildableName = "Pods_FinpaySDK.framework"
+               BlueprintName = "Pods-FinpaySDK"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
