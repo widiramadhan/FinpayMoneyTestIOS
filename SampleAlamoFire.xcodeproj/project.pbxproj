@@ -35,6 +35,8 @@
 		D38644162969DF0900F83930 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38644152969DF0900F83930 /* LoginResponse.swift */; };
 		D38644182969DFB700F83930 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38644172969DFB700F83930 /* LoginViewModel.swift */; };
 		D386441A2969E02100F83930 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38644192969E02100F83930 /* LoginView.swift */; };
+		D39C7042298328E70043FBBA /* ColorExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39C7041298328E70043FBBA /* ColorExtention.swift */; };
+		D39C7044298329160043FBBA /* CustomScannerPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39C7043298329160043FBBA /* CustomScannerPreview.swift */; };
 		D3D1613129818B95003A3457 /* OpenGalerryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612129818B95003A3457 /* OpenGalerryView.swift */; };
 		D3D1613229818B95003A3457 /* CustomCameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612229818B95003A3457 /* CustomCameraPreview.swift */; };
 		D3D1613329818B95003A3457 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1612329818B95003A3457 /* CameraView.swift */; };
@@ -87,6 +89,8 @@
 		D38644152969DF0900F83930 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		D38644172969DFB700F83930 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		D38644192969E02100F83930 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D39C7041298328E70043FBBA /* ColorExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtention.swift; sourceTree = "<group>"; };
+		D39C7043298329160043FBBA /* CustomScannerPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScannerPreview.swift; sourceTree = "<group>"; };
 		D3D1612129818B95003A3457 /* OpenGalerryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGalerryView.swift; sourceTree = "<group>"; };
 		D3D1612229818B95003A3457 /* CustomCameraPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCameraPreview.swift; sourceTree = "<group>"; };
 		D3D1612329818B95003A3457 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
@@ -234,6 +238,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		D39C7040298328D50043FBBA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D39C7041298328E70043FBBA /* ColorExtention.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		D3D1612029818B95003A3457 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,6 +294,7 @@
 			children = (
 				D3D161452981DACB003A3457 /* QrisResultView.swift */,
 				D3D161442981DACB003A3457 /* QrisView.swift */,
+				D39C7043298329160043FBBA /* CustomScannerPreview.swift */,
 			);
 			path = Qris;
 			sourceTree = "<group>";
@@ -307,6 +320,7 @@
 		D3DF158129689846004424B1 /* SampleAlamoFire */ = {
 			isa = PBXGroup;
 			children = (
+				D39C7040298328D50043FBBA /* Helper */,
 				77D043062974108E00F5333C /* Info.plist */,
 				D38644032969C4AD00F83930 /* Config */,
 				D37418C32968ABD10088091D /* Models */,
@@ -454,6 +468,7 @@
 				D3D161472981DACB003A3457 /* QrisResultView.swift in Sources */,
 				D3D1613329818B95003A3457 /* CameraView.swift in Sources */,
 				D35A019E296FBB9100074262 /* DateHelper.swift in Sources */,
+				D39C7044298329160043FBBA /* CustomScannerPreview.swift in Sources */,
 				D38644182969DFB700F83930 /* LoginViewModel.swift in Sources */,
 				D37418C52968ACD30088091D /* UserResponse.swift in Sources */,
 				D35A01A4296FBCC700074262 /* SampleApiService.swift in Sources */,
@@ -462,6 +477,7 @@
 				D38644142969DECD00F83930 /* LoginRequest.swift in Sources */,
 				D3D1613829818B95003A3457 /* UpgradeAccountView.swift in Sources */,
 				D3D1613729818B95003A3457 /* UpgradeAccountSelfieCameraView.swift in Sources */,
+				D39C7042298328E70043FBBA /* ColorExtention.swift in Sources */,
 				D3D1613529818B95003A3457 /* UpgradeAccountSelfieResultView.swift in Sources */,
 				D3D1613D29818B95003A3457 /* UpgradeAccountIdentityGuideView.swift in Sources */,
 				D37418C22968A4000088091D /* SampleUrl.swift in Sources */,
