@@ -12,6 +12,8 @@
 		77D043032971A2D100F5333C /* PulsaDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D043022971A2D100F5333C /* PulsaDataViewModel.swift */; };
 		77D04308297424FA00F5333C /* QrisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D04307297424FA00F5333C /* QrisView.swift */; };
 		77D0430A297545A500F5333C /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D04309297545A500F5333C /* AccountViewModel.swift */; };
+		D3089C5129896111004B9FE3 /* PhoneContactsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3089C4F29896111004B9FE3 /* PhoneContactsPreview.swift */; };
+		D3089C5229896111004B9FE3 /* PascaBayarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3089C5029896111004B9FE3 /* PascaBayarView.swift */; };
 		D35A019A296FB99500074262 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35A0199296FB99500074262 /* TokenResponse.swift */; };
 		D35A019C296FBB2E00074262 /* SignatureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35A019B296FBB2E00074262 /* SignatureHelper.swift */; };
 		D35A019E296FBB9100074262 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35A019D296FBB9100074262 /* DateHelper.swift */; };
@@ -66,6 +68,8 @@
 		77D043062974108E00F5333C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		77D04307297424FA00F5333C /* QrisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrisView.swift; sourceTree = "<group>"; };
 		77D04309297545A500F5333C /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		D3089C4F29896111004B9FE3 /* PhoneContactsPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneContactsPreview.swift; sourceTree = "<group>"; };
+		D3089C5029896111004B9FE3 /* PascaBayarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PascaBayarView.swift; sourceTree = "<group>"; };
 		D35A0199296FB99500074262 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
 		D35A019B296FBB2E00074262 /* SignatureHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureHelper.swift; sourceTree = "<group>"; };
 		D35A019D296FBB9100074262 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
@@ -141,6 +145,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D3089C4E29896111004B9FE3 /* PascaBayar */ = {
+			isa = PBXGroup;
+			children = (
+				D3089C4F29896111004B9FE3 /* PhoneContactsPreview.swift */,
+				D3089C5029896111004B9FE3 /* PascaBayarView.swift */,
+			);
+			path = PascaBayar;
+			sourceTree = "<group>";
+		};
 		D35A0198296FB95F00074262 /* Token */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +199,7 @@
 		D37418C72968AD3B0088091D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D3089C4E29896111004B9FE3 /* PascaBayar */,
 				D3D161432981DAAA003A3457 /* Qris */,
 				D3D1612029818B95003A3457 /* Camera */,
 				D3D1612529818B95003A3457 /* UpgradeAccount */,
@@ -476,6 +490,7 @@
 				77D043032971A2D100F5333C /* PulsaDataViewModel.swift in Sources */,
 				D38644142969DECD00F83930 /* LoginRequest.swift in Sources */,
 				D3D1613829818B95003A3457 /* UpgradeAccountView.swift in Sources */,
+				D3089C5129896111004B9FE3 /* PhoneContactsPreview.swift in Sources */,
 				D3D1613729818B95003A3457 /* UpgradeAccountSelfieCameraView.swift in Sources */,
 				D39C7042298328E70043FBBA /* ColorExtention.swift in Sources */,
 				D3D1613529818B95003A3457 /* UpgradeAccountSelfieResultView.swift in Sources */,
@@ -488,6 +503,7 @@
 				D35A01A2296FBC4500074262 /* SampleViewModel.swift in Sources */,
 				D386441A2969E02100F83930 /* LoginView.swift in Sources */,
 				D38643FD2969BE1300F83930 /* ApiService.swift in Sources */,
+				D3089C5229896111004B9FE3 /* PascaBayarView.swift in Sources */,
 				D3D161462981DACB003A3457 /* QrisView.swift in Sources */,
 				D386440E2969D35B00F83930 /* UserListViewModel.swift in Sources */,
 				D386440A2969D1C900F83930 /* UserListResponse.swift in Sources */,
