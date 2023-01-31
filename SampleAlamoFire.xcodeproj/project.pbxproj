@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4FD3AC974385AFCC5329245F /* Pods_SampleAlamoFire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ED2E15803D501E74A4D1AF /* Pods_SampleAlamoFire.framework */; };
-		77D0430129707C1400F5333C /* PulsaDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D0430029707C1400F5333C /* PulsaDataView.swift */; };
 		77D043032971A2D100F5333C /* PulsaDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D043022971A2D100F5333C /* PulsaDataViewModel.swift */; };
 		77D04308297424FA00F5333C /* QrisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D04307297424FA00F5333C /* QrisView.swift */; };
 		77D0430A297545A500F5333C /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D04309297545A500F5333C /* AccountViewModel.swift */; };
-		D3089C5129896111004B9FE3 /* PhoneContactsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3089C4F29896111004B9FE3 /* PhoneContactsPreview.swift */; };
-		D3089C5229896111004B9FE3 /* PascaBayarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3089C5029896111004B9FE3 /* PascaBayarView.swift */; };
+		D3089C672989CFEA004B9FE3 /* PulsaDataResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3089C5F2989CFEA004B9FE3 /* PulsaDataResultView.swift */; };
+		D3089C682989CFEA004B9FE3 /* PulsaDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3089C602989CFEA004B9FE3 /* PulsaDataView.swift */; };
+		D3089C692989CFEA004B9FE3 /* PhoneContactsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3089C622989CFEA004B9FE3 /* PhoneContactsPreview.swift */; };
+		D3089C6A2989CFEA004B9FE3 /* PascaBayarResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3089C632989CFEA004B9FE3 /* PascaBayarResultView.swift */; };
+		D3089C6B2989CFEA004B9FE3 /* PascaBayarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3089C642989CFEA004B9FE3 /* PascaBayarView.swift */; };
+		D3089C6C2989CFEA004B9FE3 /* CustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3089C662989CFEA004B9FE3 /* CustomBottomSheet.swift */; };
 		D35A019A296FB99500074262 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35A0199296FB99500074262 /* TokenResponse.swift */; };
 		D35A019C296FBB2E00074262 /* SignatureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35A019B296FBB2E00074262 /* SignatureHelper.swift */; };
 		D35A019E296FBB9100074262 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35A019D296FBB9100074262 /* DateHelper.swift */; };
@@ -63,13 +66,16 @@
 		17ED2E15803D501E74A4D1AF /* Pods_SampleAlamoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAlamoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		353A58DD125392256D6FC971 /* Pods-SampleAlamoFire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAlamoFire.debug.xcconfig"; path = "Target Support Files/Pods-SampleAlamoFire/Pods-SampleAlamoFire.debug.xcconfig"; sourceTree = "<group>"; };
 		76A330BC696F4F09BA10E621 /* Pods-SampleAlamoFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAlamoFire.release.xcconfig"; path = "Target Support Files/Pods-SampleAlamoFire/Pods-SampleAlamoFire.release.xcconfig"; sourceTree = "<group>"; };
-		77D0430029707C1400F5333C /* PulsaDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsaDataView.swift; sourceTree = "<group>"; };
 		77D043022971A2D100F5333C /* PulsaDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsaDataViewModel.swift; sourceTree = "<group>"; };
 		77D043062974108E00F5333C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		77D04307297424FA00F5333C /* QrisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrisView.swift; sourceTree = "<group>"; };
 		77D04309297545A500F5333C /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
-		D3089C4F29896111004B9FE3 /* PhoneContactsPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneContactsPreview.swift; sourceTree = "<group>"; };
-		D3089C5029896111004B9FE3 /* PascaBayarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PascaBayarView.swift; sourceTree = "<group>"; };
+		D3089C5F2989CFEA004B9FE3 /* PulsaDataResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsaDataResultView.swift; sourceTree = "<group>"; };
+		D3089C602989CFEA004B9FE3 /* PulsaDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsaDataView.swift; sourceTree = "<group>"; };
+		D3089C622989CFEA004B9FE3 /* PhoneContactsPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneContactsPreview.swift; sourceTree = "<group>"; };
+		D3089C632989CFEA004B9FE3 /* PascaBayarResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PascaBayarResultView.swift; sourceTree = "<group>"; };
+		D3089C642989CFEA004B9FE3 /* PascaBayarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PascaBayarView.swift; sourceTree = "<group>"; };
+		D3089C662989CFEA004B9FE3 /* CustomBottomSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBottomSheet.swift; sourceTree = "<group>"; };
 		D35A0199296FB99500074262 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
 		D35A019B296FBB2E00074262 /* SignatureHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureHelper.swift; sourceTree = "<group>"; };
 		D35A019D296FBB9100074262 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
@@ -145,13 +151,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D3089C4E29896111004B9FE3 /* PascaBayar */ = {
+		D3089C5D2989CFEA004B9FE3 /* PPOB */ = {
 			isa = PBXGroup;
 			children = (
-				D3089C4F29896111004B9FE3 /* PhoneContactsPreview.swift */,
-				D3089C5029896111004B9FE3 /* PascaBayarView.swift */,
+				D3089C5E2989CFEA004B9FE3 /* PulsaData */,
+				D3089C612989CFEA004B9FE3 /* PascaBayar */,
+			);
+			path = PPOB;
+			sourceTree = "<group>";
+		};
+		D3089C5E2989CFEA004B9FE3 /* PulsaData */ = {
+			isa = PBXGroup;
+			children = (
+				D3089C5F2989CFEA004B9FE3 /* PulsaDataResultView.swift */,
+				D3089C602989CFEA004B9FE3 /* PulsaDataView.swift */,
+			);
+			path = PulsaData;
+			sourceTree = "<group>";
+		};
+		D3089C612989CFEA004B9FE3 /* PascaBayar */ = {
+			isa = PBXGroup;
+			children = (
+				D3089C622989CFEA004B9FE3 /* PhoneContactsPreview.swift */,
+				D3089C632989CFEA004B9FE3 /* PascaBayarResultView.swift */,
+				D3089C642989CFEA004B9FE3 /* PascaBayarView.swift */,
 			);
 			path = PascaBayar;
+			sourceTree = "<group>";
+		};
+		D3089C652989CFEA004B9FE3 /* CustomBottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				D3089C662989CFEA004B9FE3 /* CustomBottomSheet.swift */,
+			);
+			path = CustomBottomSheet;
 			sourceTree = "<group>";
 		};
 		D35A0198296FB95F00074262 /* Token */ = {
@@ -199,7 +232,8 @@
 		D37418C72968AD3B0088091D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D3089C4E29896111004B9FE3 /* PascaBayar */,
+				D3089C652989CFEA004B9FE3 /* CustomBottomSheet */,
+				D3089C5D2989CFEA004B9FE3 /* PPOB */,
 				D3D161432981DAAA003A3457 /* Qris */,
 				D3D1612029818B95003A3457 /* Camera */,
 				D3D1612529818B95003A3457 /* UpgradeAccount */,
@@ -208,7 +242,6 @@
 				D386440B2969D22200F83930 /* UserListView.swift */,
 				D38644192969E02100F83930 /* LoginView.swift */,
 				D35A019F296FBBCA00074262 /* SampleView.swift */,
-				77D0430029707C1400F5333C /* PulsaDataView.swift */,
 				77D04307297424FA00F5333C /* QrisView.swift */,
 			);
 			path = View;
@@ -470,6 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3089C692989CFEA004B9FE3 /* PhoneContactsPreview.swift in Sources */,
 				D3D1613629818B95003A3457 /* UpgradeAccountSelfieGuideView.swift in Sources */,
 				D35A01A6296FBF8400074262 /* TransactionHelper.swift in Sources */,
 				D38644022969C3F300F83930 /* AppDelegate.swift in Sources */,
@@ -483,14 +517,16 @@
 				D3D1613329818B95003A3457 /* CameraView.swift in Sources */,
 				D35A019E296FBB9100074262 /* DateHelper.swift in Sources */,
 				D39C7044298329160043FBBA /* CustomScannerPreview.swift in Sources */,
+				D3089C672989CFEA004B9FE3 /* PulsaDataResultView.swift in Sources */,
 				D38644182969DFB700F83930 /* LoginViewModel.swift in Sources */,
 				D37418C52968ACD30088091D /* UserResponse.swift in Sources */,
+				D3089C682989CFEA004B9FE3 /* PulsaDataView.swift in Sources */,
 				D35A01A4296FBCC700074262 /* SampleApiService.swift in Sources */,
 				D3D1613B29818B95003A3457 /* UpgradeAccountIdentityCameraView.swift in Sources */,
 				77D043032971A2D100F5333C /* PulsaDataViewModel.swift in Sources */,
+				D3089C6B2989CFEA004B9FE3 /* PascaBayarView.swift in Sources */,
 				D38644142969DECD00F83930 /* LoginRequest.swift in Sources */,
 				D3D1613829818B95003A3457 /* UpgradeAccountView.swift in Sources */,
-				D3089C5129896111004B9FE3 /* PhoneContactsPreview.swift in Sources */,
 				D3D1613729818B95003A3457 /* UpgradeAccountSelfieCameraView.swift in Sources */,
 				D39C7042298328E70043FBBA /* ColorExtention.swift in Sources */,
 				D3D1613529818B95003A3457 /* UpgradeAccountSelfieResultView.swift in Sources */,
@@ -501,9 +537,9 @@
 				D386440C2969D22200F83930 /* UserListView.swift in Sources */,
 				D3D1613A29818B95003A3457 /* UpgradeAccountPersonalDataView.swift in Sources */,
 				D35A01A2296FBC4500074262 /* SampleViewModel.swift in Sources */,
+				D3089C6C2989CFEA004B9FE3 /* CustomBottomSheet.swift in Sources */,
 				D386441A2969E02100F83930 /* LoginView.swift in Sources */,
 				D38643FD2969BE1300F83930 /* ApiService.swift in Sources */,
-				D3089C5229896111004B9FE3 /* PascaBayarView.swift in Sources */,
 				D3D161462981DACB003A3457 /* QrisView.swift in Sources */,
 				D386440E2969D35B00F83930 /* UserListViewModel.swift in Sources */,
 				D386440A2969D1C900F83930 /* UserListResponse.swift in Sources */,
@@ -512,7 +548,7 @@
 				77D0430A297545A500F5333C /* AccountViewModel.swift in Sources */,
 				D3D1613229818B95003A3457 /* CustomCameraPreview.swift in Sources */,
 				D3D1613C29818B95003A3457 /* UpgradeAccountIdentityResultView.swift in Sources */,
-				77D0430129707C1400F5333C /* PulsaDataView.swift in Sources */,
+				D3089C6A2989CFEA004B9FE3 /* PascaBayarResultView.swift in Sources */,
 				D38644062969C59400F83930 /* UserViewModel.swift in Sources */,
 				D37ABF61296947A9001B414E /* UserView.swift in Sources */,
 				D38644162969DF0900F83930 /* LoginResponse.swift in Sources */,
