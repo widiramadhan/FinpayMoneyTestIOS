@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 struct PulsaDataView: View {
+    
     @State private var phoneNumber : String = ""
     @State private var showPhoneContacts = false
     @State private var showGridData = true
@@ -32,7 +33,7 @@ struct PulsaDataView: View {
                             .stroke(Color.gray.opacity(0.5), lineWidth: 1)
                     ).padding(.horizontal, 16).padding(.bottom, 16)
                 Rectangle().fill(Color(hex: "#eeeeee")).frame(width: .infinity, height: 14, alignment: .center)
-                EmptyPascabayarView()
+                EmptyServiceView()
                 Spacer()
                 Button(action: {
                     // button action here
