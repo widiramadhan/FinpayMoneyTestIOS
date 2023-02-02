@@ -12,6 +12,9 @@
 		77D04308297424FA00F5333C /* QrisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D04307297424FA00F5333C /* QrisView.swift */; };
 		77D0430A297545A500F5333C /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D04309297545A500F5333C /* AccountViewModel.swift */; };
 		D3089C6C2989CFEA004B9FE3 /* CustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3089C662989CFEA004B9FE3 /* CustomBottomSheet.swift */; };
+		D35031FB298C6D7500E26025 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35031FA298C6D7500E26025 /* PinView.swift */; };
+		D35031FF298C6D8200E26025 /* XWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35031FD298C6D8200E26025 /* XWebview.swift */; };
+		D3503200298C6D8200E26025 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35031FE298C6D8200E26025 /* WebView.swift */; };
 		D3505032298A9FF400D51510 /* PulsaDataResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3505021298A9FF400D51510 /* PulsaDataResultView.swift */; };
 		D3505033298A9FF400D51510 /* PulsaDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3505022298A9FF400D51510 /* PulsaDataView.swift */; };
 		D3505034298A9FF400D51510 /* PhoneContactsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3505024298A9FF400D51510 /* PhoneContactsPreview.swift */; };
@@ -79,6 +82,9 @@
 		77D04307297424FA00F5333C /* QrisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrisView.swift; sourceTree = "<group>"; };
 		77D04309297545A500F5333C /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		D3089C662989CFEA004B9FE3 /* CustomBottomSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBottomSheet.swift; sourceTree = "<group>"; };
+		D35031FA298C6D7500E26025 /* PinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		D35031FD298C6D8200E26025 /* XWebview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XWebview.swift; sourceTree = "<group>"; };
+		D35031FE298C6D8200E26025 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		D3505021298A9FF400D51510 /* PulsaDataResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsaDataResultView.swift; sourceTree = "<group>"; };
 		D3505022298A9FF400D51510 /* PulsaDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsaDataView.swift; sourceTree = "<group>"; };
 		D3505024298A9FF400D51510 /* PhoneContactsPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneContactsPreview.swift; sourceTree = "<group>"; };
@@ -173,6 +179,23 @@
 				D3089C662989CFEA004B9FE3 /* CustomBottomSheet.swift */,
 			);
 			path = CustomBottomSheet;
+			sourceTree = "<group>";
+		};
+		D35031F9298C6D7500E26025 /* PIN */ = {
+			isa = PBXGroup;
+			children = (
+				D35031FA298C6D7500E26025 /* PinView.swift */,
+			);
+			path = PIN;
+			sourceTree = "<group>";
+		};
+		D35031FC298C6D8200E26025 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				D35031FD298C6D8200E26025 /* XWebview.swift */,
+				D35031FE298C6D8200E26025 /* WebView.swift */,
+			);
+			path = WebView;
 			sourceTree = "<group>";
 		};
 		D350501F298A9FF400D51510 /* PPOB */ = {
@@ -280,17 +303,19 @@
 		D37418C72968AD3B0088091D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D350501F298A9FF400D51510 /* PPOB */,
-				D3089C652989CFEA004B9FE3 /* CustomBottomSheet */,
-				D3D161432981DAAA003A3457 /* Qris */,
-				D3D1612029818B95003A3457 /* Camera */,
-				D3D1612529818B95003A3457 /* UpgradeAccount */,
 				D38644072969CF8A00F83930 /* HomeView.swift */,
-				D37ABF60296947A9001B414E /* UserView.swift */,
-				D386440B2969D22200F83930 /* UserListView.swift */,
 				D38644192969E02100F83930 /* LoginView.swift */,
-				D35A019F296FBBCA00074262 /* SampleView.swift */,
 				77D04307297424FA00F5333C /* QrisView.swift */,
+				D35A019F296FBBCA00074262 /* SampleView.swift */,
+				D386440B2969D22200F83930 /* UserListView.swift */,
+				D37ABF60296947A9001B414E /* UserView.swift */,
+				D3D1612029818B95003A3457 /* Camera */,
+				D3089C652989CFEA004B9FE3 /* CustomBottomSheet */,
+				D35031F9298C6D7500E26025 /* PIN */,
+				D350501F298A9FF400D51510 /* PPOB */,
+				D3D161432981DAAA003A3457 /* Qris */,
+				D3D1612529818B95003A3457 /* UpgradeAccount */,
+				D35031FC298C6D8200E26025 /* WebView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -560,6 +585,7 @@
 				D3DF158329689846004424B1 /* SampleAlamoFireApp.swift in Sources */,
 				D350503B298A9FF400D51510 /* TelkomView.swift in Sources */,
 				D38644082969CF8A00F83930 /* HomeView.swift in Sources */,
+				D3503200298C6D8200E26025 /* WebView.swift in Sources */,
 				D350503D298A9FF400D51510 /* BpjsView.swift in Sources */,
 				D3D1613929818B95003A3457 /* UpgradeAccountSuccessView.swift in Sources */,
 				D350503A298A9FF400D51510 /* PlnTokenView.swift in Sources */,
@@ -585,6 +611,7 @@
 				D39C7042298328E70043FBBA /* ColorExtention.swift in Sources */,
 				D3D1613529818B95003A3457 /* UpgradeAccountSelfieResultView.swift in Sources */,
 				D3505039298A9FF400D51510 /* PlnView.swift in Sources */,
+				D35031FF298C6D8200E26025 /* XWebview.swift in Sources */,
 				D3D1613D29818B95003A3457 /* UpgradeAccountIdentityGuideView.swift in Sources */,
 				D37418C22968A4000088091D /* SampleUrl.swift in Sources */,
 				D38643FB2969BE0A00F83930 /* ApiManager.swift in Sources */,
@@ -608,6 +635,7 @@
 				D38644062969C59400F83930 /* UserViewModel.swift in Sources */,
 				D37ABF61296947A9001B414E /* UserView.swift in Sources */,
 				D38644162969DF0900F83930 /* LoginResponse.swift in Sources */,
+				D35031FB298C6D7500E26025 /* PinView.swift in Sources */,
 				77D04308297424FA00F5333C /* QrisView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
