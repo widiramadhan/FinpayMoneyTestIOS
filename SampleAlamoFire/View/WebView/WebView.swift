@@ -75,7 +75,17 @@ struct WebView: View{
         NavigationStack{
             WebviewPreview(redirect: $redirect)
             NavigationLink(destination: AnotherView(), isActive: $redirect){}
+        }.toolbar {
+            ToolbarItem(placement: .principal) {
+                Text("Pembayaran")
+                    .foregroundColor(.white)
+                    .bold()
+            }
         }
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbarBackground(Color.teal, for: .navigationBar)
+        .toolbarBackground(.visible, for: .navigationBar)
+        .padding()
     }
 }
 

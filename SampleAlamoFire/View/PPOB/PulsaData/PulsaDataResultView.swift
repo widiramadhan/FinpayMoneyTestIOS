@@ -15,12 +15,12 @@ struct PulsaDataResultView: View {
     @State private var selectedTabValue : Int = 0
     @State private var showBottomSheet: Bool = false
     
-    let IcUser = UIImage(named: "IcUser")!
+    //let IcUser = UIImage(named: "IcUser")!
     var body: some View {
         NavigationStack{
             ZStack{
                 VStack(alignment: .leading){
-                    Text("Topup Ke Nomor 08XXXXXXX").font(.system(size: 14, design: .rounded)).foregroundColor(.black).padding(.bottom, 16).padding(.horizontal, 16)
+                    Text("Topup Ke Nomor 08XXXXXXX").font(.system(size: 14, design: .rounded)).foregroundColor(.black).padding(.bottom, 16).padding(.horizontal, 16).padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
                     Picker(selection: $selectedTabValue, label: Text("")) {
                                     Text("Pulsa").tag(0)
                                     Text("Data").tag(1)
@@ -82,6 +82,16 @@ struct KuotaContentView: View{
             }
         }
         .padding()
+        .toolbar {
+            ToolbarItem(placement: .principal) {
+                Text("Pulsa & Paket Data")
+                    .foregroundColor(.white)
+                    .bold()
+            }
+        }
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbarBackground(Color.teal, for: .navigationBar)
+        .toolbarBackground(.visible, for: .navigationBar)
     }
 }
 
@@ -122,6 +132,16 @@ struct PulsaContentView: View{
                 }
             }
         }
+        .toolbar {
+            ToolbarItem(placement: .principal) {
+                Text("Pulsa & Paket Data")
+                    .foregroundColor(.white)
+                    .bold()
+            }
+        }
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbarBackground(Color.teal, for: .navigationBar)
+        .toolbarBackground(.visible, for: .navigationBar)
         .padding()
     }
 }
@@ -129,8 +149,9 @@ struct PulsaContentView: View{
 
 
 struct PulsaDataInquiryBottomSheet: View{
-    let finpayLogo = UIImage(named: "FinpayLogo")!
+//    let finpayLogo = UIImage(named: "FinpayLogo")!
     let buttonHeight: CGFloat = 55
+    @State private var showPaymentView: Bool = false
     
     var body: some View{
         VStack(alignment: .leading) {
@@ -168,16 +189,18 @@ struct PulsaDataInquiryBottomSheet: View{
                 }.padding(.bottom, 16).padding(.horizontal, 16)
                 Rectangle().fill(Color(hex: "#eeeeee")).frame(width: .infinity, height: 10, alignment: .center)
                 HStack{
-                    Image(uiImage: finpayLogo).resizable().frame(width: 40,height: 20)
+//                    Image(uiImage: finpayLogo).resizable().frame(width: 40,height: 20)
                     Text("Finpay Money")
                     VStack{
                         Text("Rp. 100.0000").padding(.all, 5)
                     }.background(Color(hex: "#eeeeee")).cornerRadius(5)
                 }.padding(.all, 16)
                 Button(action: {
+                    showPaymentView = true
                 }){
                     Text("Bayar Sekarang").padding(.all, 16).frame(maxWidth: .infinity).foregroundColor(.white)
                 }.background(.teal).padding(.horizontal, 16)
+                NavigationLink("", destination:  WebView(), isActive: $showPaymentView)
             }.padding(.bottom, 16)
         }
     }

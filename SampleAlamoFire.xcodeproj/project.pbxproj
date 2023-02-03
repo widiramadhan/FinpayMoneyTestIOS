@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FD3AC974385AFCC5329245F /* Pods_SampleAlamoFire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ED2E15803D501E74A4D1AF /* Pods_SampleAlamoFire.framework */; };
 		77D043032971A2D100F5333C /* PulsaDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D043022971A2D100F5333C /* PulsaDataViewModel.swift */; };
-		77D04308297424FA00F5333C /* QrisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D04307297424FA00F5333C /* QrisView.swift */; };
 		77D0430A297545A500F5333C /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D04309297545A500F5333C /* AccountViewModel.swift */; };
 		D3089C6C2989CFEA004B9FE3 /* CustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3089C662989CFEA004B9FE3 /* CustomBottomSheet.swift */; };
 		D35031FB298C6D7500E26025 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35031FA298C6D7500E26025 /* PinView.swift */; };
@@ -79,7 +77,6 @@
 		76A330BC696F4F09BA10E621 /* Pods-SampleAlamoFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAlamoFire.release.xcconfig"; path = "Target Support Files/Pods-SampleAlamoFire/Pods-SampleAlamoFire.release.xcconfig"; sourceTree = "<group>"; };
 		77D043022971A2D100F5333C /* PulsaDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsaDataViewModel.swift; sourceTree = "<group>"; };
 		77D043062974108E00F5333C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		77D04307297424FA00F5333C /* QrisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrisView.swift; sourceTree = "<group>"; };
 		77D04309297545A500F5333C /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		D3089C662989CFEA004B9FE3 /* CustomBottomSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBottomSheet.swift; sourceTree = "<group>"; };
 		D35031FA298C6D7500E26025 /* PinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
@@ -149,7 +146,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD3AC974385AFCC5329245F /* Pods_SampleAlamoFire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +301,6 @@
 			children = (
 				D38644072969CF8A00F83930 /* HomeView.swift */,
 				D38644192969E02100F83930 /* LoginView.swift */,
-				77D04307297424FA00F5333C /* QrisView.swift */,
 				D35A019F296FBBCA00074262 /* SampleView.swift */,
 				D386440B2969D22200F83930 /* UserListView.swift */,
 				D37ABF60296947A9001B414E /* UserView.swift */,
@@ -636,7 +631,6 @@
 				D37ABF61296947A9001B414E /* UserView.swift in Sources */,
 				D38644162969DF0900F83930 /* LoginResponse.swift in Sources */,
 				D35031FB298C6D7500E26025 /* PinView.swift in Sources */,
-				77D04308297424FA00F5333C /* QrisView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,11 +13,12 @@ struct PulsaDataView: View {
     @State private var phoneNumber : String = ""
     @State private var showPhoneContacts = false
     @State private var showGridData = true
+    @State private var showResultView = false
     
     var body :some View{
         NavigationStack{
             VStack(alignment: .leading){
-                Text("Nomor Ponsel").font(.system(size: 14, design: .rounded)).foregroundColor(.black).padding(.horizontal, 16)
+                Text("Nomor Ponsel").font(.system(size: 14, design: .rounded)).foregroundColor(.black).padding(.horizontal, 16).padding(EdgeInsets(top: 20, leading: 0, bottom: 0, trailing: 0))
                     HStack(alignment: .center){
                         TextField("", text: $phoneNumber)
                             .font(Font.system(size: 15))
@@ -32,11 +33,21 @@ struct PulsaDataView: View {
                         RoundedRectangle(cornerRadius: 10, style: .continuous)
                             .stroke(Color.gray.opacity(0.5), lineWidth: 1)
                     ).padding(.horizontal, 16).padding(.bottom, 16)
+                    .toolbar {
+                        ToolbarItem(placement: .principal) {
+                            Text("Pulsa & Paket Data")
+                                .foregroundColor(.white)
+                                .bold()
+                        }
+                    }
+                    .navigationBarTitleDisplayMode(.inline)
+                    .toolbarBackground(Color.teal, for: .navigationBar)
+                    .toolbarBackground(.visible, for: .navigationBar)
                 Rectangle().fill(Color(hex: "#eeeeee")).frame(width: .infinity, height: 14, alignment: .center)
                 EmptyServiceView()
                 Spacer()
                 Button(action: {
-                    // button action here
+                    showResultView = true
                 }) {
                     Text("LANJUTKAN").frame(minWidth: 0,maxWidth: .infinity)
                         .padding(16).foregroundColor(.white)
@@ -44,6 +55,7 @@ struct PulsaDataView: View {
                         .cornerRadius(4)
                     
                 }.padding(.all, 16)
+                NavigationLink("", destination:  PulsaDataResultView(), isActive: $showResultView)
             }.sheet(isPresented: $showPhoneContacts, onDismiss: loadPhoneNumber) {
                 PhoneContactsPreview(phoneNumber: self.$phoneNumber)
             }
