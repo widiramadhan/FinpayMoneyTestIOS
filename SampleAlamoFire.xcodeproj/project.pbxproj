@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EEFAFB1EF423B3893BF7E9E /* Pods_SampleAlamoFire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17ED2E15803D501E74A4D1AF /* Pods_SampleAlamoFire.framework */; };
+		773DBF472992E4B9002A0DA3 /* FPEMoneyMobileIOS in Frameworks */ = {isa = PBXBuildFile; fileRef = 773DBF462992E4B9002A0DA3 /* FPEMoneyMobileIOS */; };
+		773DBF492993C830002A0DA3 /* FinpaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773DBF482993C830002A0DA3 /* FinpaySDK.framework */; };
+		773DBF4A2993C830002A0DA3 /* FinpaySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 773DBF482993C830002A0DA3 /* FinpaySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		77D043032971A2D100F5333C /* PulsaDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D043022971A2D100F5333C /* PulsaDataViewModel.swift */; };
 		77D0430A297545A500F5333C /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D04309297545A500F5333C /* AccountViewModel.swift */; };
 		D3089C6C2989CFEA004B9FE3 /* CustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3089C662989CFEA004B9FE3 /* CustomBottomSheet.swift */; };
 		D35031FB298C6D7500E26025 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35031FA298C6D7500E26025 /* PinView.swift */; };
 		D35031FF298C6D8200E26025 /* XWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35031FD298C6D8200E26025 /* XWebview.swift */; };
 		D3503200298C6D8200E26025 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35031FE298C6D8200E26025 /* WebView.swift */; };
-		D3505032298A9FF400D51510 /* PulsaDataResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3505021298A9FF400D51510 /* PulsaDataResultView.swift */; };
-		D3505033298A9FF400D51510 /* PulsaDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3505022298A9FF400D51510 /* PulsaDataView.swift */; };
 		D3505034298A9FF400D51510 /* PhoneContactsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3505024298A9FF400D51510 /* PhoneContactsPreview.swift */; };
 		D3505035298A9FF400D51510 /* PascaBayarResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3505025298A9FF400D51510 /* PascaBayarResultView.swift */; };
 		D3505036298A9FF400D51510 /* PascaBayarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3505026298A9FF400D51510 /* PascaBayarView.swift */; };
@@ -71,10 +73,26 @@
 		D3DF158A29689847004424B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DF158929689847004424B1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		773DBF4B2993C830002A0DA3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				773DBF4A2993C830002A0DA3 /* FinpaySDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		17ED2E15803D501E74A4D1AF /* Pods_SampleAlamoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleAlamoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		353A58DD125392256D6FC971 /* Pods-SampleAlamoFire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAlamoFire.debug.xcconfig"; path = "Target Support Files/Pods-SampleAlamoFire/Pods-SampleAlamoFire.debug.xcconfig"; sourceTree = "<group>"; };
 		76A330BC696F4F09BA10E621 /* Pods-SampleAlamoFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAlamoFire.release.xcconfig"; path = "Target Support Files/Pods-SampleAlamoFire/Pods-SampleAlamoFire.release.xcconfig"; sourceTree = "<group>"; };
+		773DBF462992E4B9002A0DA3 /* FPEMoneyMobileIOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FPEMoneyMobileIOS; path = ../FPEMoneyMobileIOS; sourceTree = "<group>"; };
+		773DBF482993C830002A0DA3 /* FinpaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FinpaySDK.framework; path = "../../Library/Developer/Xcode/DerivedData/FinpaySDK-awseovcplrqbjtgyzactdowedlwm/Build/Products/Debug-iphonesimulator/FinpaySDK.framework"; sourceTree = "<group>"; };
 		77D043022971A2D100F5333C /* PulsaDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsaDataViewModel.swift; sourceTree = "<group>"; };
 		77D043062974108E00F5333C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		77D04309297545A500F5333C /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
@@ -82,8 +100,6 @@
 		D35031FA298C6D7500E26025 /* PinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
 		D35031FD298C6D8200E26025 /* XWebview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XWebview.swift; sourceTree = "<group>"; };
 		D35031FE298C6D8200E26025 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		D3505021298A9FF400D51510 /* PulsaDataResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsaDataResultView.swift; sourceTree = "<group>"; };
-		D3505022298A9FF400D51510 /* PulsaDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsaDataView.swift; sourceTree = "<group>"; };
 		D3505024298A9FF400D51510 /* PhoneContactsPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneContactsPreview.swift; sourceTree = "<group>"; };
 		D3505025298A9FF400D51510 /* PascaBayarResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PascaBayarResultView.swift; sourceTree = "<group>"; };
 		D3505026298A9FF400D51510 /* PascaBayarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PascaBayarView.swift; sourceTree = "<group>"; };
@@ -146,6 +162,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773DBF472992E4B9002A0DA3 /* FPEMoneyMobileIOS in Frameworks */,
+				5EEFAFB1EF423B3893BF7E9E /* Pods_SampleAlamoFire.framework in Frameworks */,
+				773DBF492993C830002A0DA3 /* FinpaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +183,8 @@
 		60054F59A644D48025D8275A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				773DBF482993C830002A0DA3 /* FinpaySDK.framework */,
+				773DBF462992E4B9002A0DA3 /* FPEMoneyMobileIOS */,
 				17ED2E15803D501E74A4D1AF /* Pods_SampleAlamoFire.framework */,
 			);
 			name = Frameworks;
@@ -197,22 +218,12 @@
 		D350501F298A9FF400D51510 /* PPOB */ = {
 			isa = PBXGroup;
 			children = (
-				D3505020298A9FF400D51510 /* PulsaData */,
 				D3505023298A9FF400D51510 /* PascaBayar */,
 				D3505027298A9FF400D51510 /* PLN */,
 				D350502C298A9FF400D51510 /* Telkom */,
 				D350502F298A9FF400D51510 /* Bpjs */,
 			);
 			path = PPOB;
-			sourceTree = "<group>";
-		};
-		D3505020298A9FF400D51510 /* PulsaData */ = {
-			isa = PBXGroup;
-			children = (
-				D3505021298A9FF400D51510 /* PulsaDataResultView.swift */,
-				D3505022298A9FF400D51510 /* PulsaDataView.swift */,
-			);
-			path = PulsaData;
 			sourceTree = "<group>";
 		};
 		D3505023298A9FF400D51510 /* PascaBayar */ = {
@@ -469,6 +480,7 @@
 				D3DF157C29689846004424B1 /* Frameworks */,
 				D3DF157D29689846004424B1 /* Resources */,
 				3AED7D2BE1BDE5CD56992F41 /* [CP] Embed Pods Frameworks */,
+				773DBF4B2993C830002A0DA3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -591,11 +603,9 @@
 				D3D1613329818B95003A3457 /* CameraView.swift in Sources */,
 				D35A019E296FBB9100074262 /* DateHelper.swift in Sources */,
 				D39C7044298329160043FBBA /* CustomScannerPreview.swift in Sources */,
-				D3505032298A9FF400D51510 /* PulsaDataResultView.swift in Sources */,
 				D38644182969DFB700F83930 /* LoginViewModel.swift in Sources */,
 				D3505037298A9FF400D51510 /* PlnResultView.swift in Sources */,
 				D37418C52968ACD30088091D /* UserResponse.swift in Sources */,
-				D3505033298A9FF400D51510 /* PulsaDataView.swift in Sources */,
 				D35A01A4296FBCC700074262 /* SampleApiService.swift in Sources */,
 				D3D1613B29818B95003A3457 /* UpgradeAccountIdentityCameraView.swift in Sources */,
 				77D043032971A2D100F5333C /* PulsaDataViewModel.swift in Sources */,

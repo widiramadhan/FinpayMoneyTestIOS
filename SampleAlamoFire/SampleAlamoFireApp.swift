@@ -1,9 +1,3 @@
-//
-//  SampleAlamoFireApp.swift
-//  SampleAlamoFire
-//
-//  Created by Muhammad Rasyiddin on 07/01/23.
-//
 import SwiftUI
 
 @main
@@ -12,7 +6,8 @@ struct SampleAlamoFireApp: App {
 
     var body: some Scene {
         WindowGroup {
-            PulsaDataView()
+            QrisView()
+            FinpaySDKUI
         }
     }
 }

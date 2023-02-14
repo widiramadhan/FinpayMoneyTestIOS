@@ -101,7 +101,7 @@
 		69766212A7E12AC4ED0940560F9F5B84 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
 		6BE344328F0EE707160E767251D7A152 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
 		6E5330D37573DA907BE1D88F6043AA85 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
-		729B301D2DE7CB882CAB4BEB725D74A5 /* Pods_FinpaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinpaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		729B301D2DE7CB882CAB4BEB725D74A5 /* Pods-SampleAlamoFire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SampleAlamoFire"; path = Pods_SampleAlamoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B960283791479CD79B1202B91BF8924 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		7DDF7988FF111F6FB08E33013B58AD26 /* Pods-SampleAlamoFire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleAlamoFire-dummy.m"; sourceTree = "<group>"; };
 		7F118E7A759148000FFF2BEC701B6B4E /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		8E89F373C3EA4BBB8EE186C212A13955 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		9379C181C25CB361CE94B36874F97722 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
 		9CC3D8131DF98FF301B10E9DBD0B9398 /* Pods-SampleAlamoFire-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleAlamoFire-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A09DCA6D388396BAE95B9A30C6697114 /* Pods-SampleAlamoFire-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleAlamoFire-acknowledgements.plist"; sourceTree = "<group>"; };
 		A14F60ECD65AA98C79ABE099AAE43971 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
 		A5759AFC13C07872A26B1F886B0D4BAB /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
@@ -227,6 +227,7 @@
 				3B2206037C64F17D64379349750A542D /* Validation.swift */,
 				909B9F13467B3583C65CB41FB083EC61 /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -242,7 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
-				729B301D2DE7CB882CAB4BEB725D74A5 /* Pods_FinpaySDK.framework */,
+				729B301D2DE7CB882CAB4BEB725D74A5 /* Pods-SampleAlamoFire */,
 				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON */,
 			);
 			name = Products;
@@ -263,6 +264,7 @@
 				B5FBB7357CC74B530DECACB1213210A3 /* SwiftyJSON.swift */,
 				021680648795177E141372FF785020B0 /* Support Files */,
 			);
+			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -356,9 +358,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4D3783069B98D7A1236F03A19BF0466E /* Pods-FinpaySDK */ = {
+		4D3783069B98D7A1236F03A19BF0466E /* Pods-SampleAlamoFire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15BB9448140036861EF9D3C4B1037101 /* Build configuration list for PBXNativeTarget "Pods-FinpaySDK" */;
+			buildConfigurationList = 15BB9448140036861EF9D3C4B1037101 /* Build configuration list for PBXNativeTarget "Pods-SampleAlamoFire" */;
 			buildPhases = (
 				2FAB8FBCA670C3A3ECD43D7FFD7FCC84 /* Headers */,
 				098D8A4A4579C98970EC664DAA4F0A43 /* Sources */,
@@ -371,9 +373,9 @@
 				2A9DDE02B675D4E78962D8D73D35A66F /* PBXTargetDependency */,
 				03832D9E418A7FF2D66CD856A7B8DA9F /* PBXTargetDependency */,
 			);
-			name = "Pods-FinpaySDK";
+			name = "Pods-SampleAlamoFire";
 			productName = Pods_SampleAlamoFire;
-			productReference = 729B301D2DE7CB882CAB4BEB725D74A5 /* Pods_FinpaySDK.framework */;
+			productReference = 729B301D2DE7CB882CAB4BEB725D74A5 /* Pods-SampleAlamoFire */;
 			productType = "com.apple.product-type.framework";
 		};
 		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
@@ -435,7 +437,7 @@
 			projectRoot = "";
 			targets = (
 				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
-				4D3783069B98D7A1236F03A19BF0466E /* Pods-FinpaySDK */,
+				4D3783069B98D7A1236F03A19BF0466E /* Pods-SampleAlamoFire */,
 				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
 			);
 		};
@@ -891,7 +893,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15BB9448140036861EF9D3C4B1037101 /* Build configuration list for PBXNativeTarget "Pods-FinpaySDK" */ = {
+		15BB9448140036861EF9D3C4B1037101 /* Build configuration list for PBXNativeTarget "Pods-SampleAlamoFire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8E4992DACB241F8699FFF36F92F082E /* Debug */,

@@ -85,13 +85,14 @@ struct KuotaContentView: View{
         .toolbar {
             ToolbarItem(placement: .principal) {
                 Text("Pulsa & Paket Data")
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
                     .bold()
             }
         }
         .navigationBarTitleDisplayMode(.inline)
-        .toolbarBackground(Color.teal, for: .navigationBar)
+        .toolbarBackground(Color.white, for: .navigationBar)
         .toolbarBackground(.visible, for: .navigationBar)
+        .accentColor(.black)
     }
 }
 
@@ -135,12 +136,12 @@ struct PulsaContentView: View{
         .toolbar {
             ToolbarItem(placement: .principal) {
                 Text("Pulsa & Paket Data")
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
                     .bold()
             }
         }
         .navigationBarTitleDisplayMode(.inline)
-        .toolbarBackground(Color.teal, for: .navigationBar)
+        .toolbarBackground(Color.white, for: .navigationBar)
         .toolbarBackground(.visible, for: .navigationBar)
         .padding()
     }

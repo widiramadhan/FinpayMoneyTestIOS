@@ -36,12 +36,12 @@ struct PulsaDataView: View {
                     .toolbar {
                         ToolbarItem(placement: .principal) {
                             Text("Pulsa & Paket Data")
-                                .foregroundColor(.white)
+                                .foregroundColor(.black)
                                 .bold()
                         }
                     }
                     .navigationBarTitleDisplayMode(.inline)
-                    .toolbarBackground(Color.teal, for: .navigationBar)
+                    .toolbarBackground(Color.white, for: .navigationBar)
                     .toolbarBackground(.visible, for: .navigationBar)
                 Rectangle().fill(Color(hex: "#eeeeee")).frame(width: .infinity, height: 14, alignment: .center)
                 EmptyServiceView()
