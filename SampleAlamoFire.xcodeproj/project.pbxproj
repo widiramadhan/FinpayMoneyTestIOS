@@ -38,12 +38,13 @@
 		D37418C22968A4000088091D /* SampleUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37418C12968A4000088091D /* SampleUrl.swift */; };
 		D37418C52968ACD30088091D /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37418C42968ACD30088091D /* UserResponse.swift */; };
 		D37ABF61296947A9001B414E /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37ABF60296947A9001B414E /* UserView.swift */; };
+		D37D4B40299085D2007FA382 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D4B3F299085D2007FA382 /* HomeView.swift */; };
+		D37D4B422990865F007FA382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37D4B412990865F007FA382 /* Assets.xcassets */; };
 		D38643FB2969BE0A00F83930 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38643FA2969BE0A00F83930 /* ApiManager.swift */; };
 		D38643FD2969BE1300F83930 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38643FC2969BE1300F83930 /* ApiService.swift */; };
 		D38644002969C29500F83930 /* EncodeableExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38643FF2969C29500F83930 /* EncodeableExtentions.swift */; };
 		D38644022969C3F300F83930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38644012969C3F300F83930 /* AppDelegate.swift */; };
 		D38644062969C59400F83930 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38644052969C59400F83930 /* UserViewModel.swift */; };
-		D38644082969CF8A00F83930 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38644072969CF8A00F83930 /* HomeView.swift */; };
 		D386440A2969D1C900F83930 /* UserListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38644092969D1C900F83930 /* UserListResponse.swift */; };
 		D386440C2969D22200F83930 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386440B2969D22200F83930 /* UserListView.swift */; };
 		D386440E2969D35B00F83930 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D386440D2969D35B00F83930 /* UserListViewModel.swift */; };
@@ -69,7 +70,6 @@
 		D3D161462981DACB003A3457 /* QrisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D161442981DACB003A3457 /* QrisView.swift */; };
 		D3D161472981DACB003A3457 /* QrisResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D161452981DACB003A3457 /* QrisResultView.swift */; };
 		D3DF158329689846004424B1 /* SampleAlamoFireApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF158229689846004424B1 /* SampleAlamoFireApp.swift */; };
-		D3DF158729689847004424B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DF158629689847004424B1 /* Assets.xcassets */; };
 		D3DF158A29689847004424B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DF158929689847004424B1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -121,12 +121,13 @@
 		D37418C12968A4000088091D /* SampleUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUrl.swift; sourceTree = "<group>"; };
 		D37418C42968ACD30088091D /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 		D37ABF60296947A9001B414E /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		D37D4B3F299085D2007FA382 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D37D4B412990865F007FA382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D38643FA2969BE0A00F83930 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		D38643FC2969BE1300F83930 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		D38643FF2969C29500F83930 /* EncodeableExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodeableExtentions.swift; sourceTree = "<group>"; };
 		D38644012969C3F300F83930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D38644052969C59400F83930 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
-		D38644072969CF8A00F83930 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D38644092969D1C900F83930 /* UserListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListResponse.swift; sourceTree = "<group>"; };
 		D386440B2969D22200F83930 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		D386440D2969D35B00F83930 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
@@ -153,7 +154,6 @@
 		D3D161452981DACB003A3457 /* QrisResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrisResultView.swift; sourceTree = "<group>"; };
 		D3DF157F29689846004424B1 /* SampleAlamoFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAlamoFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DF158229689846004424B1 /* SampleAlamoFireApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAlamoFireApp.swift; sourceTree = "<group>"; };
-		D3DF158629689847004424B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3DF158929689847004424B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -310,7 +310,7 @@
 		D37418C72968AD3B0088091D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D38644072969CF8A00F83930 /* HomeView.swift */,
+				D37D4B3E299085D2007FA382 /* Home */,
 				D38644192969E02100F83930 /* LoginView.swift */,
 				D35A019F296FBBCA00074262 /* SampleView.swift */,
 				D386440B2969D22200F83930 /* UserListView.swift */,
@@ -324,6 +324,14 @@
 				D35031FC298C6D8200E26025 /* WebView */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D37D4B3E299085D2007FA382 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D37D4B3F299085D2007FA382 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		D38643FE2969C27C00F83930 /* Extentions */ = {
@@ -446,16 +454,16 @@
 		D3DF158129689846004424B1 /* SampleAlamoFire */ = {
 			isa = PBXGroup;
 			children = (
-				D39C7040298328D50043FBBA /* Helper */,
 				77D043062974108E00F5333C /* Info.plist */,
+				D38644012969C3F300F83930 /* AppDelegate.swift */,
+				D3DF158229689846004424B1 /* SampleAlamoFireApp.swift */,
+				D37D4B412990865F007FA382 /* Assets.xcassets */,
 				D38644032969C4AD00F83930 /* Config */,
+				D39C7040298328D50043FBBA /* Helper */,
 				D37418C32968ABD10088091D /* Models */,
+				D3DF158829689847004424B1 /* Preview Content */,
 				D37418C72968AD3B0088091D /* View */,
 				D37418C62968AD2F0088091D /* ViewModels */,
-				D3DF158229689846004424B1 /* SampleAlamoFireApp.swift */,
-				D38644012969C3F300F83930 /* AppDelegate.swift */,
-				D3DF158629689847004424B1 /* Assets.xcassets */,
-				D3DF158829689847004424B1 /* Preview Content */,
 			);
 			path = SampleAlamoFire;
 			sourceTree = "<group>";
@@ -529,8 +537,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37D4B422990865F007FA382 /* Assets.xcassets in Resources */,
 				D3DF158A29689847004424B1 /* Preview Assets.xcassets in Resources */,
-				D3DF158729689847004424B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,8 +599,8 @@
 				D38644002969C29500F83930 /* EncodeableExtentions.swift in Sources */,
 				D3DF158329689846004424B1 /* SampleAlamoFireApp.swift in Sources */,
 				D350503B298A9FF400D51510 /* TelkomView.swift in Sources */,
-				D38644082969CF8A00F83930 /* HomeView.swift in Sources */,
 				D3503200298C6D8200E26025 /* WebView.swift in Sources */,
+				D37D4B40299085D2007FA382 /* HomeView.swift in Sources */,
 				D350503D298A9FF400D51510 /* BpjsView.swift in Sources */,
 				D3D1613929818B95003A3457 /* UpgradeAccountSuccessView.swift in Sources */,
 				D350503A298A9FF400D51510 /* PlnTokenView.swift in Sources */,
